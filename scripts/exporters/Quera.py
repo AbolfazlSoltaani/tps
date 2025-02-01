@@ -87,8 +87,8 @@ class QueraExporter:
         copyfile(file, absolute_dest)
 
     CONFIG_NAME = "config.json"
-    TESTS_INPUT_DIR_NAME = "input"
-    TESTS_OUTPUT_DIR_NAME = "output"
+    TESTS_INPUT_DIR_NAME = "in"
+    TESTS_OUTPUT_DIR_NAME = "out"
 
     def get_id(self, test_name):
         if test_name not in self.test_id:
